@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>15 AI Prompts to Automate Your Side Hustle</title>
+  <meta name="description" content="Copy-paste prompts to build automated side hustles. Built for Emergent AI." />
+  <style>
+    :root{--bg:#050608;--panel:#0b0f14;--text:#e6eef8;--muted:#94a3b8;--green:#22c55e;--green2:#00ff5a;--line:rgba(34,197,94,.25);--btn:#0f172a;}
+    *{box-sizing:border-box} body{margin:0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;background:radial-gradient(1200px 600px at 20% 0%, rgba(34,197,94,.12), transparent 60%), var(--bg);color:var(--text)}
+    a{color:var(--green)}
+    .wrap{max-width:980px;margin:0 auto;padding:28px 18px 60px}
+    .hero{border:1px solid var(--line);background:linear-gradient(180deg, rgba(34,197,94,.08), rgba(0,0,0,0));padding:22px 18px;border-radius:14px}
+    .kicker{color:var(--muted);font-size:13px;letter-spacing:.08em;text-transform:uppercase}
+    h1{margin:10px 0 8px;font-size:32px;line-height:1.15}
+    .sub{color:var(--muted);margin:0 0 14px;font-size:14px;line-height:1.6}
+    .ctaRow{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
+    .btn{border:1px solid rgba(148,163,184,.25);background:rgba(15,23,42,.7);color:var(--text);padding:10px 12px;border-radius:10px;text-decoration:none;display:inline-flex;align-items:center;gap:8px}
+    .btn.primary{border-color:rgba(34,197,94,.35);box-shadow:0 0 0 1px rgba(34,197,94,.18) inset}
+    .grid{display:grid;grid-template-columns:1fr;gap:12px;margin-top:16px}
+    @media(min-width:860px){.grid{grid-template-columns:1fr 1fr}}
+    .card{border:1px solid var(--line);background:rgba(11,15,20,.75);backdrop-filter: blur(6px);padding:14px;border-radius:14px;position:relative;overflow:hidden}
+    .card:before{content:"";position:absolute;inset:-2px -2px auto auto;width:140px;height:140px;background:radial-gradient(circle at 30% 30%, rgba(34,197,94,.18), transparent 65%);transform:translate(30px,-30px);}
+    .tag{font-size:12px;color:var(--muted)}
+    .title{margin:6px 0 10px;font-size:16px;letter-spacing:.02em}
+    textarea{width:100%;min-height:140px;resize:vertical;border-radius:10px;border:1px solid rgba(148,163,184,.25);background:rgba(2,6,23,.7);color:var(--text);padding:10px;font-size:12.5px;line-height:1.45}
+    .row{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+    .small{font-size:12px;color:var(--muted)}
+    .toast{position:fixed;left:50%;bottom:18px;transform:translateX(-50%);background:rgba(2,6,23,.92);border:1px solid rgba(34,197,94,.35);color:var(--text);padding:10px 12px;border-radius:999px;display:none;gap:8px;align-items:center}
+    .dot{width:8px;height:8px;border-radius:50%;background:var(--green2);box-shadow:0 0 18px rgba(0,255,90,.55)}
+    .footer{margin-top:22px;color:var(--muted);font-size:12px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="hero">
+      <div class="kicker">free guide</div>
+      <h1>15 AI Prompts to Automate Your Side Hustle (+ 3 Power Prompts)</h1>
+      <p class="sub">Tap <b>Copy Prompt</b>, open Emergent, paste, and fill in the bracketed parts (your niche, platform, links). No first‑person income claims — keep it opportunity-based.</p>
+      <div class="ctaRow">
+        <a class="btn primary" href="https://app.emergent.sh/?via=rj-applab" target="_blank" rel="noopener">Open Emergent →</a>
+        <a class="btn" href="#prompts">Jump to Prompts ↓</a>
+      </div>
+      <div class="small" style="margin-top:10px">Affiliate link: <a href="https://app.emergent.sh/?via=rj-applab" target="_blank" rel="noopener">https://app.emergent.sh/?via=rj-applab</a></div>
+    </div>
+
+    <div id="prompts" class="grid"></div>
+
+    <div class="footer">
+      Built with Emergent AI. If you found this useful, join the free community: <a href="https://www.skool.com/brand-new-to-marketing-9277" target="_blank" rel="noopener">Skool</a>.
+    </div>
+  </div>
+
+  <div id="toast" class="toast"><span class="dot"></span><span id="toastText">Copied</span></div>
+
+<script>
+const EMERGENT = 'https://app.emergent.sh/?via=rj-applab';
+
+const prompts = [
+  {section:'Easiest to Start', num:1, title:'Faceless Content Page', text:`Build me a fully automated faceless content system for a [YOUR NICHE] Instagram page. The system should: 1) Generate 30 days of content ideas based on trending topics in the niche, 2) Write a full reel script for each idea (hook, body, CTA), 3) Generate an AI voiceover script, 4) Create a posting schedule (Mon-Sun with content type per day), 5) Write 5 caption templates with hashtag sets optimised for reach. All content must avoid first-person income claims and frame everything as possibility/opportunity. Output everything in a structured JSON file I can reuse.`},
+  {section:'Easiest to Start', num:2, title:'Print on Demand Business', text:`Set up a complete print-on-demand business strategy for me. Research the top 10 trending niches on Redbubble and Merch by Amazon right now. For each niche: generate 5 product title ideas, write SEO-optimised product descriptions, suggest the best product types (t-shirts, mugs, phone cases etc), and create a list of design concepts I can hand to a designer or generate with AI. Also create a launch checklist so I can get my first 10 products live on [PLATFORM] this week. Output as a ready-to-use launch plan.`},
+  {section:'Easiest to Start', num:3, title:'AI Freelance Writing Service', text:`Build me a complete freelance AI writing business I can run on Fiverr and Upwork. Create: 1) 3 Fiverr gig titles and descriptions optimised for search, 2) A Upwork profile bio and 5 proposal templates for different client types, 3) A workflow where I paste a client brief and get back a publish-ready 1000-word blog post using AI, 4) A pricing structure (basic/standard/premium), 5) A client onboarding email sequence (3 emails). I want to be able to take a client brief, run it through this system, and deliver within 1 hour with minimal effort.`},
+  {section:'Easiest to Start', num:4, title:'Canva Template Shop', text:`Create a complete Canva template business for me to sell on Etsy and Gumroad. Research the top 10 best-selling template types on Etsy right now. For the top 3 categories: write SEO-optimised Etsy listing titles, tags, and descriptions, create a product bundle strategy to increase average order value, write a shop announcement and bio, and draft a 5-email post-purchase sequence to upsell more templates. Also give me a 30-day content plan for Pinterest to drive traffic to the shop. Output everything ready to copy-paste.`},
+  {section:'Easiest to Start', num:5, title:'Reselling with AI Listings', text:`Build me an AI-powered reselling system for [PLATFORM: eBay / Vinted / Depop]. Create a process where I can: 1) Take a photo of an item and get back a fully optimised listing title, description, price suggestion and category, 2) Research what items are selling fast in [CATEGORY], 3) Get a sourcing checklist for charity shops and car boots, 4) Track profit per item in a simple spreadsheet template. Also write 10 listing templates for the most common item types so I can list in under 2 minutes per item.`},
+
+  {section:'Biggest Earners', num:6, title:'Digital Product Empire', text:`Build me a complete digital product business from scratch. My niche is [NICHE]. Create: 1) A market research report on what digital products are selling best in this niche (ebooks, templates, mini-courses, swipe files), 2) A full ebook outline (10 chapters, 3 key points per chapter), 3) A Gumroad/Stan Store product listing (title, description, pricing, upsell offer), 4) A launch email sequence (5 emails), 5) A 30-day Instagram content plan to sell the product organically. I want to go from zero to my first sale within 2 weeks.`},
+  {section:'Biggest Earners', num:7, title:'Affiliate Marketing Machine', text:`Build me a complete affiliate marketing system for [NICHE]. Research the top 10 affiliate programmes in this niche with the highest commissions and recurring payouts. For the top 3: create a content strategy (blog posts, reels, carousels), write 5 pieces of content per programme ready to publish, create a comparison article I can post as a blog or carousel ('Top 5 AI Tools for Side Hustles'), and write a DM script I can use when someone asks for a recommendation. Everything should naturally include my affiliate links without being salesy. Output a 30-day promotion calendar.`},
+  {section:'Biggest Earners', num:8, title:'AI Automation Agency', text:`Help me launch an AI automation agency targeting small businesses. Create: 1) A list of 10 specific automation services I can offer (e.g. AI chatbot setup, automated social media posting, email automation), 2) A pricing guide for each service (one-off + monthly retainer), 3) A cold outreach email sequence (3 emails) targeting [BUSINESS TYPE], 4) A one-page service menu I can send as a PDF, 5) A simple client discovery call script to qualify leads. I want to close my first client within 30 days spending less than 2 hours per week on delivery.`},
+  {section:'Biggest Earners', num:9, title:'Dropshipping Store', text:`Build me a complete dropshipping business plan for [NICHE]. Research the top 10 winning products in this niche right now. For the top 3 products: write product page copy (headline, bullet points, description, FAQ), create Facebook and Instagram ad copy (3 variations each), write an abandoned cart email sequence (3 emails), and suggest the best suppliers on AliExpress or CJdropshipping. Also build me a store launch checklist and a first-week ad spend strategy with a £200 budget. Output everything ready to implement in Shopify.`},
+  {section:'Biggest Earners', num:10, title:'Niche Newsletter Business', text:`Build me a monetised niche newsletter business in the [NICHE] space. Create: 1) A newsletter name, tagline, and positioning statement, 2) A 12-week content calendar (one issue per week with topic, angle, and structure), 3) A lead magnet idea to grow subscribers fast, 4) A sponsorship outreach email template and pricing guide, 5) An affiliate integration strategy (which products to recommend in each issue), 6) A Beehiiv/Substack setup checklist. I want 500 subscribers within 60 days and my first £100 in revenue within 90 days.`},
+
+  {section:'Most Passive', num:11, title:'Affiliate Marketing on Autopilot', text:`Create a fully automated affiliate marketing system for [YOUR AFFILIATE PROGRAMME]. Build: 1) A 90-day SEO blog content plan (titles, meta descriptions, outlines) targeting buyers searching for AI tools, 2) A faceless Instagram/TikTok content strategy (30 posts) that funnels to the affiliate link, 3) A Pinterest strategy (20 pin descriptions and titles) for evergreen traffic, 4) An email welcome sequence for anyone who downloads my lead magnet (5 emails, each naturally recommending the tool), 5) A set-and-forget posting schedule I can load into a scheduler and leave running. Output everything in one master doc.`},
+  {section:'Most Passive', num:12, title:'Print on Demand Passive Income', text:`Build me a passive print-on-demand income stream that runs with zero ongoing effort. Create: 1) A keyword research report for the top 50 evergreen search terms on Redbubble/Merch by Amazon, 2) 50 product titles and descriptions optimised for those keywords, 3) A design brief for each product I can hand to a freelancer or AI image generator, 4) An upload checklist so I can batch-upload 20 products in one sitting, 5) A 6-month review checklist to optimise underperforming listings. I want 100 products live within 30 days and passive sales coming in without touching it again.`},
+  {section:'Most Passive', num:13, title:'AI Content Site (SEO + Ad Revenue)', text:`Build me a faceless AI content website that earns ad revenue passively. Niche: [NICHE]. Create: 1) A domain name shortlist and site structure, 2) A 6-month SEO content plan (50 article titles with target keywords and search intent), 3) Full outlines for the first 5 articles, 4) A Google AdSense and Mediavine setup checklist, 5) An internal linking strategy to maximise RPM, 6) A workflow where I paste a topic and get back a publish-ready 1500-word SEO article in under 10 minutes. I want 10,000 monthly visitors within 6 months.`},
+  {section:'Most Passive', num:14, title:'Digital Downloads (Etsy/Gumroad)', text:`Create a passive digital downloads business for me on [PLATFORM: Etsy / Gumroad]. Niche: [NICHE]. Build: 1) A product research report (top 20 best-selling digital downloads in my niche with price points), 2) Full listings for 10 products (title, description, tags, pricing), 3) A bundle strategy to increase average order value, 4) A Pinterest automation plan to drive evergreen traffic (30 pin templates), 5) An automated post-purchase email sequence (3 emails) with upsell. Once set up I want this to require less than 1 hour per month to maintain.`},
+  {section:'Most Passive', num:15, title:'Fully Automated Faceless Social Media Business', text:`Build me a complete end-to-end automated social media business in the [NICHE] space. This should be 95% hands-off. Create: 1) Full brand identity (page name, bio, aesthetic direction, colour palette), 2) A 90-day content calendar with post type per day (reel/carousel/story), 3) Scripts for 30 reels optimised for saves and shares, 4) 30 carousel outlines with slide-by-slide content, 5) Caption templates with hashtag sets, 6) A comment-to-DM automation script ('Comment PROMPTS and I'll send you the free guide'), 7) The DM delivery message including the lead magnet link, 8) A monthly content refresh process requiring less than 2 hours. Output as a complete operations manual.`},
+
+  {section:'Power Prompts', num:16, title:'The Full Automated Income Machine', text:`I want to build a fully automated online income system from scratch. Here's what I need you to build for me: 1) A faceless Instagram page in the [NICHE] niche — brand identity, 90-day content calendar, 30 reel scripts, 30 carousel outlines, caption templates, hashtag sets, and a comment-to-DM automation flow. 2) A lead magnet (PDF guide or checklist) that gets delivered automatically when someone DMs me. 3) A 7-email welcome sequence that nurtures the lead and promotes my affiliate offer ([YOUR PRODUCT/LINK]) naturally across each email. 4) A Pinterest strategy with 30 evergreen pins driving traffic to the same funnel. 5) A weekly maintenance checklist that keeps the whole system running in under 2 hours per week. Deliver everything as a single master operations document I can hand to a VA or run myself.`},
+  {section:'Power Prompts', num:17, title:'The Viral Content Hijacker', text:`Build me an AI-powered system that finds what's already going viral in my niche and turns it into original content for my page — automatically. Here's what I need: 1) A research framework to identify the top 10 performing reels in [NICHE] every week (what to look for, which accounts, what metrics), 2) A rewriting process that takes a viral reel script and produces a completely original version with a new angle, hook, and CTA — without copying, 3) A video brief template I can drop into an AI video tool (like Kling AI) to generate the actual footage, 4) A caption and hashtag formula based on what the top performing posts use, 5) A weekly workflow: Monday research → Tuesday rewrite → Wednesday generate → Thursday schedule → Friday analyse. Output this as a repeatable content engine I can run every single week.`},
+  {section:'Power Prompts', num:18, title:'The Passive Affiliate Empire', text:`Build me a complete passive affiliate marketing empire targeting people searching for AI tools and side hustle solutions. I want this to run 24/7 with minimal input. Build me: 1) A 12-month SEO content strategy (100 article titles with keywords, search intent, and priority order) targeting buyers ready to sign up for AI tools, 2) Full article outlines for the top 10 highest-priority pieces, 3) A faceless YouTube channel strategy (20 videos planned), 4) An email list growth strategy using a lead magnet funnel (lead magnet content, opt-in page copy, and a 10-email nurture sequence), 5) A monetisation map showing exactly where and how to place affiliate links across all content types without being spammy, 6) A 90-day launch plan with weekly actions to go from zero to £500/month in passive commissions. My main affiliate programme is Emergent AI — ${EMERGENT}. Output as a complete business blueprint.`},
+];
+
+function showToast(msg){
+  const t=document.getElementById('toast');
+  document.getElementById('toastText').textContent=msg;
+  t.style.display='inline-flex';
+  clearTimeout(window.__toastTimer);
+  window.__toastTimer=setTimeout(()=>t.style.display='none', 1200);
+}
+
+async function copyText(text){
+  try{
+    await navigator.clipboard.writeText(text);
+    showToast('Copied prompt');
+  } catch(e){
+    // fallback
+    const ta=document.createElement('textarea');
+    ta.value=text; document.body.appendChild(ta);
+    ta.select(); document.execCommand('copy');
+    document.body.removeChild(ta);
+    showToast('Copied prompt');
+  }
+}
+
+const grid=document.getElementById('prompts');
+let lastSection='';
+
+prompts.forEach(p=>{
+  if(p.section!==lastSection){
+    const h=document.createElement('div');
+    h.className='card';
+    h.innerHTML=`<div class="kicker">${p.section}</div><div class="title" style="font-size:20px;margin-top:8px">${p.section}</div><div class="small">Scroll for the prompts ↓</div>`;
+    grid.appendChild(h);
+    lastSection=p.section;
+  }
+
+  const card=document.createElement('div');
+  card.className='card';
+  const promptText=`PROMPT ${p.num} — ${p.title}\n\n${p.text}`;
+  card.innerHTML=`
+    <div class="tag">PROMPT ${p.num}</div>
+    <div class="title">${p.title}</div>
+    <textarea readonly>${p.text}</textarea>
+    <div class="row">
+      <button class="btn primary" type="button" data-copy="1">Copy Prompt</button>
+      <a class="btn" href="${EMERGENT}" target="_blank" rel="noopener">Open Emergent →</a>
+      <span class="small">Fill in the [brackets] then run.</span>
+    </div>
+  `;
+  card.querySelector('button').addEventListener('click', ()=>copyText(promptText));
+  grid.appendChild(card);
+});
+</script>
+</body>
+</html>
