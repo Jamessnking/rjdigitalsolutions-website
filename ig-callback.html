@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Instagram Callback</title>
+  <meta name="robots" content="noindex,nofollow" />
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial; padding:24px;}
+    code{background:#f3f4f6;padding:2px 6px;border-radius:6px}
+  </style>
+</head>
+<body>
+  Redirecting…
+  <script>
+    // Forward Meta OAuth params to the Emergent backend callback.
+    // This allows the redirect URI to live on a domain we can verify (rjdigitalsolutions.co.uk)
+    // while still completing OAuth in the app.
+    const qs = window.location.search || '';
+    const target = 'https://workflow-nexus-hub.emergent.host/api/instagram/auth/callback' + qs;
+    window.location.replace(target);
+  </script>
+  <p>If you aren’t redirected, open:</p>
+  <p><a id="link" href="#">Continue</a></p>
+  <script>
+    document.getElementById('link').href = 'https://workflow-nexus-hub.emergent.host/api/instagram/auth/callback' + (window.location.search || '');
+  </script>
+</body>
+</html>
